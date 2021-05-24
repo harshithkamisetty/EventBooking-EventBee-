@@ -1,0 +1,51 @@
+#middle_box {
+  height: 540px;
+
+  background-repeat: no-repeat;
+  background-size: 1278px 570px;
+  background-image: url("bring-world-together-eventbrite.jpg");
+}
+#orange_middle {
+  height: 300px;
+  background-color: #f05537;
+  width: 100%;
+  text-align: center;
+}
+#inner-div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+#text_help {
+  padding-top: 40px;
+  margin-left: 255px;
+  text-align: center;
+  width: 60%;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+  margin-right: -0.25px;
+  font-weight: 700;
+
+  font-family: "Neue Plak", "apple-system", "BlinkMacSystemFont", "Roboto",
+    "Helvetica Neue", "Helvetica", "Tahoma", "Arial", "sans-serif";
+}
+#help_content {
+  font-family: "Neue Plak", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    "Helvetica Neue", "Helvetica", "Tahoma", "Arial", "sans-serif";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.25px;
+  margin-right: -0.25px;
+  font-weight: 700;
+}
+#help_heading {
+  font-family: "Neue Plak", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    "Helvetica Neue", "Helvetica", "Tahoma", "Arial", "sans-serif";
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.25px;
+  margin-right: -0.25px;
+  font-weight: lighter;
+}

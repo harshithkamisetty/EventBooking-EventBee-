@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#proimage {
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f16334;
+  font-size: 12;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+}
+.arrow {
+  float: right;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.content {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+
+  align-content: center;
+}
+.headings {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+.blocks {
+  width: 540px;
+  height: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  text-align: top;
+}
+.top_heading {
+  width: 100%;
+  height: 125px;
+  background-color: #f16334;
+}
+#top_heading_text {
+  font-family: bentonsansmedium;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+#text_symbol {
+  height: 50px;
+  width: 60px;
+  margin-left: 250px;
+}
+.blocks_drop {
+  width: 170px;
+  height: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  text-align: top;
+}
+#ihr {
+  width: 120%;
+  height: 0.2px;
+  margin-left: -40px;
+  margin-right: auto;
+  background-color: rgb(214, 214, 214);
+  border: 0 none;
+}
+.btn {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 11px;
+  width: 110px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active,
+.btn:hover {
+  background-color: #666;
+  color: white;
+}
+.blocks_drop1 {
+  width: 270px;
+  height: 42px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  text-align: top;
+}
+.blocks_drop2 {
+  width: 130px;
+  height: 42px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  text-align: top;
+}
+.blocks_drop3 {
+  width: 126px;
+  height: 42px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  text-align: top;
+}
+.box1 {
+  /*border:2px solid #E7E7E7; */
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+/*style side bar*/
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom-color: #eeeeee;
+  background-color: #fafafa;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.btn-demo {
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.btn-demo:focus {
+  outline: 0;
+}
+
+.buts {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 11px;
+  width: 110px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.act,
+.buts:hover {
+  background-color: #666;
+  color: white;
+}
+#myid {
+  align-content: center;
+  height: 200px;
+  width: 250px;
+}

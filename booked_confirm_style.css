@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+}
+.top_heading {
+  width: 100%;
+  height: 125px;
+  background-color: #f16334;
+}
+#top_heading_text {
+  font-family: bentonsansmedium;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+#container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 400px;
+  height: 450px;
+  position: relative;
+  user-select: none;
+}
+
+img,
+canvas {
+  border-radius: 10px;
+}
+
+#card:active {
+  transform: scale(1.05);
+}
